@@ -12,13 +12,13 @@ import com.facebook.react.modules.core.DeviceEventManagerModule;
 import android.Manifest;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
+
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.TextureView;
 import android.util.Base64;
 import android.view.OrientationEventListener;
-import android.util.Log;
-import androidx.core.content.ContextCompat;
 
 import org.opencv.videoio.VideoWriter;
 import org.opencv.android.Utils;
@@ -46,8 +46,6 @@ import java.io.InputStream;
 import java.io.File;
 import java.lang.Runnable;
 import java.util.ArrayList;
-import java.util.Timer;
-import java.util.TimerTask;
 
 enum whichOne {
     FACE_CLASSIFIER,

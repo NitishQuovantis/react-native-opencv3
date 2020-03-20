@@ -7,6 +7,7 @@ import android.util.Log;
 import com.facebook.react.uimanager.NativeViewHierarchyManager;
 import com.facebook.react.uimanager.UIManagerModule;
 import com.facebook.react.uimanager.UIBlock;
+
 import com.facebook.react.bridge.ReadableMap;
 import com.facebook.react.bridge.Promise;
 import com.facebook.react.bridge.ReactApplicationContext;
@@ -89,6 +90,7 @@ public class CvCameraModule extends ReactContextBaseJavaModule {
     public void stopRecording(final int viewTag, final Promise promise) {
       final ReactApplicationContext context = getReactApplicationContext();
       UIManagerModule uiManager = context.getNativeModule(UIManagerModule.class);
+
       uiManager.addUIBlock(new UIBlock() {
         @Override
         public void execute(NativeViewHierarchyManager nativeViewHierarchyManager) {
