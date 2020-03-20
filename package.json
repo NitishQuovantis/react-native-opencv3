@@ -1,0 +1,47 @@
+{
+  "_from": "react-native-opencv3",
+  "_id": "react-native-opencv3@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-y/PIrA9q7Zgv69F8RwjfH3X8/fKzlkLb/IStFOlyrgNWBexV5gwA2VNO+P63tD7x1N/WK5ZjGBVDcPf40MlFKw==",
+  "_location": "/react-native-opencv3",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-opencv3",
+    "name": "react-native-opencv3",
+    "escapedName": "react-native-opencv3",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-opencv3/-/react-native-opencv3-1.0.7.tgz",
+  "_shasum": "3c790d5bd365518058bc414ee5a49207543df123",
+  "_spec": "react-native-opencv3",
+  "_where": "/Volumes/DATA/React native/ReactNativeOpenCV",
+  "author": {
+    "name": "Adam G. Freeman"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "OpenCV+contrib ported to React-Native for both iOS (v3.4.1) and Android (v3.4.4)",
+  "keywords": [
+    "react-native OpenCV"
+  ],
+  "license": "BSD",
+  "main": "index.js",
+  "name": "react-native-opencv3",
+  "peerDependencies": {
+    "react-native": "0.59.5",
+    "react-native-fs": "^2.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.7"
+}
